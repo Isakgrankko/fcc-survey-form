@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
   <div id="form-outer">
     <h1 id="title">Survey Form</h1>
     <p id="description">
@@ -44,7 +45,7 @@
           <label id="number-label" for="number">* Number: </label>
         </div>
         <div class="rightTab">
-          <input type="number" name="number" id="number"min="1" max="125" class="input-field" required placeholder="Enter your phone number">
+          <input type="number" name="number" id="number" min="1" max="125" class="input-field" required placeholder="Enter your phone number">
         </div>
 
         <div class="rowTab">
@@ -56,11 +57,11 @@
             <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
           </div>
 
-          
-          
-          
-          
-        
+
+
+
+
+
         </div>
         <div class="rowTab">
           <div class="labels">
@@ -68,28 +69,28 @@
           </div>
           <div class="rightTab">
             <select id="dropdown" name="currentPos" class="dropdown">
-          <option disabled value>Select an option</option>
-          
-
-          <option value="job">Full Time Job</option>
-          <option value="learner">Full Time Learner</option>
-          <option value="preferNo">Prefer not to say</option>
-          <option value="other">Other</option>
-        </select>
+              <option disabled value>Select an option</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
           </div>
         </div>
+        
         <div class="rowTab">
           <div class="labels">
             <label for="userRating">* why do you wanna work for us?</label>
           </div>
           <div class="rightTab">
             <ul style="list-style: none;">
-              <li class="radio"><label>becouse i like it<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
-              <li class="radio"><label>I wanna get use to working<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
-              <li class="radio"><label>job is my hobby<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+              <li class="radio"><label>becouse i like it<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+              <li class="radio"><label>I wanna get use to working<input name="radio-buttons" value="2" type="radio"
+                    class="userRatings"></label></li>
+              <li class="radio"><label>job is my hobby<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
             </ul>
-          
-          
+
+
           </div>
         </div>
         <div class="rowTab">
@@ -98,15 +99,30 @@
           </div>
           <div class="rightTab">
             <select id="most-like" name="mostLike" class="dropdown">
-          <option disabled selected value>Select an option</option>
-          <option value="challenges">Challenges</option>
-          <option value="projects">Projects</option>
-          <option value="community">Community</option>
-          <option value="openSource">Open Source</option>
-        </select>
+              <option disabled selected value>Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="openSource">Open Source</option>
+            </select>
           </div>
         </div>
-        
+
+        <div class="rowTab">
+          <div class="labels">
+            <label for="preferences">what type of work do you not like? </label>
+          </div>
+          <div class="rightTab">
+            <ul id="preferences" style="list-style: none;">
+              <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">fysical
+                  work</label></li>
+              <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">psycical work</li>
+              <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">stressful
+                  types of work</label></li>
+            </ul>
+          </div>
+        </div>
+
 
         <div class="rowTab">
           <div class="labels">
@@ -117,25 +133,11 @@
           </div>
         </div>
         <button id="submit" type="submit">Submit</button>
-      </form>
-    </div>
+    </form>
+  </div>
 
-
-    <div class="rowTab">
-      <div class="labels">
-        <label for="preferences">Things that should be improved in the future<br>(Check all that apply): </label>
-      </div>
-      <div class="rightTab">
-        <ul id="preferences" style="list-style: none;">
-          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
-          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end Projects</li>
-          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
-        </ul>
-      </div>
-    </div>
-
-   </div>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
