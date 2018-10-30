@@ -8,7 +8,7 @@ body {
 
 h1,
 p {
-    color: grey;
+    color: rgb(255, 24, 255);
     text-align: center;
     font-size: 30px;
     letter-spacing: 5px;
@@ -29,6 +29,6 @@ h2 {
 
 form {
     text-align: center;
-    color: rgb(73, 85, 84);
+    color: rgb(230, 255, 1);
     font-size: 20px;
 }
