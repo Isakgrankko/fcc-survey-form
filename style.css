@@ -1,7 +1,6 @@
 body {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/19/Background-3228704_1920.jpg);
     background-color: #f1ee78;
-    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -12,14 +11,12 @@ p {
     text-align: center;
     font-size: 30px;
     letter-spacing: 5px;
-
 }
 
 h2 {
     color: rgb(172, 204, 209);
     text-align: center;
     font-size: 30px;
-
 
 }
 
@@ -30,5 +27,5 @@ h2 {
 form {
     text-align: center;
     color: rgb(230, 255, 1);
-    font-size: 20px;
+    font-size: 20px;   
 }
